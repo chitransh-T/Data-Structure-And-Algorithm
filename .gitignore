@@ -1,0 +1,46 @@
+# Ignore all executable files
+*.exe
+*.out
+*.app
+
+# Ignore build directories
+build/
+debug/
+release/
+bin/
+obj/
+
+# Ignore compiled Object files
+*.o
+*.obj
+*.lo
+*.slo
+
+# Ignore precompiled headers
+*.gch
+*.pch
+
+# Ignore compiled dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Ignore compiled static libraries
+*.a
+*.la
+*.lai
+*.lib
+
+# Ignore other common files
+.vs/
+.vscode/
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Ignore user-specific files
+*.user
+*.userosscache
+*.suo
+*.userprefs

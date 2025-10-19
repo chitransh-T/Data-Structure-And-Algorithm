@@ -3,7 +3,7 @@ using namespace std;
 
 int linearSearch(int arr[],int size,int target ){
       for(int i =0; i<size ; i++){
-        if(arr[i]==target){
+        if(arr[i]==target){       
             return i;
         }
     }
@@ -14,7 +14,7 @@ int main() {
    int target = 5;
    int size = sizeof(arr)/sizeof(arr[0]);
    
-   cout<<linearSearch(arr , size , target) << endl;
+   cout<<linearSearch(arr , size , target) << endl;    // calling the linearsearch function
   
     return 0;
 }

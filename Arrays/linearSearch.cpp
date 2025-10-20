@@ -14,7 +14,7 @@ int main() {
    int target = 5;
    int size = sizeof(arr)/sizeof(arr[0]);
    
-   cout<<linearSearch(arr , size , target) << endl;    // calling the linearsearch function
+   cout<<linearSearch(arr , size , target) << endl;    
   
     return 0;
 }

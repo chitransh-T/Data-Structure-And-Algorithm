@@ -3,7 +3,7 @@
 #include <climits>
 using namespace std;
 int main() {
-    int nums[] = {12,5,22,7,2,56,9};
+    int nums[] = {12,5,22,7,2,56,9,23};
     int smallest = INT_MAX;
      int size = sizeof(nums) / sizeof(nums[0]); 
      int index = -1;
